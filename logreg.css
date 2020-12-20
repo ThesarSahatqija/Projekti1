@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+
+  
+}
+header{
+    margin: 50px;
+  
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+  
+  footer{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+  }
+  
+  .button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 3px 7px 3px 7px;
+    border-radius: 30px;
+    margin-left: 50px;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+    text-align: right;
+  }
+  .menu {
+    position: top;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    color: black;
+    text-align: right;
+    margin:0;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    
+  }
+  
+  
+  /* Links inside the navbar */
+  .navbarleft  {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .navbarright  {
+    float: right;
+    font-size: 16px;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    color: black;
+  }
+ 
+.login{ 
+    display: flex;
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: gray;  
+    opacity: 80%;
+        border-radius: 30px ;  
+        text-align: center;
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+
+}  
+label{  
+    color: #000000;  
+    font-size: 17px;
+
+    
+}  
+
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+
+.register{
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: gray;  
+    opacity: 80%;
+    border-radius: 30px ;  
+    text-align: center;
+      
+}
+#Number{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Email{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}
+.alert {
+    margin: auto;
+    width: 250px;
+    height: 100px;
+    line-height: 100px;
+    opacity: 0.5;
+    background-color: green;
+    color: white;
+    text-align: center;
+    
+  }
+
+  .hide {
+    display: none;
+  }
+  
+  html{
+    background: url('background2.jpg') no-repeat center fixed;     
+      background-size: cover;
+  }

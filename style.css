@@ -1,0 +1,218 @@
+*{
+  margin: 0;
+
+  
+}
+html{
+  background: url('background2.jpg') no-repeat center fixed;     
+    background-size: cover;
+}
+header{
+  margin: 50px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+footer{
+  margin: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:black;
+}
+
+.button {
+  font: bold 11px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 3px 7px 3px 7px;
+  border-radius: 30px;
+  margin-left: 50px;
+}
+html{
+  background-color: rgb(216, 214, 214);
+  height: 100%;
+  margin: 0;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darkgray;
+  color: white;
+  text-align: right;
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+  
+}
+
+
+/* Links inside the navbar */
+.navbarleft  {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbarright  {
+  float: right;
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+  color: black;
+}
+
+#main{display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 600px;
+  align-items: center;
+  background-image: url("backg.png");
+  background-repeat: no-repeat;
+  
+
+}
+
+.div1 {
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 300px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: white;
+  opacity: 65%;
+  
+  
+}
+.avatar {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: white; 
+}
+.avatar ul {display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.avatar ul li img{
+  width: 150px;
+}
+#avatar ul li {list-style: none;
+  padding-top: 80px;
+  margin: 5px 0;
+  text-align: center;
+}
+#produkti p{text-align: center;}
+
+#produkti ul {display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#produkti ul li img{
+    width: 150px;
+}
+#produkti ul li {list-style: none;
+    padding-top: 80px;
+    margin: 5px 0;
+    text-align: center;
+}
+#produkti li a {
+    text-decoration: none;
+    color: black;
+    
+    
+}
+#produkti li p:hover{
+  background-color: #ddd;
+  border: none;
+  border-radius: 15px;
+  color: black;
+  text-align: center;
+  font-size: 20pt;
+  transition: 0.3s;
+}
+#produkti p{
+
+  width: 250px;
+  display:table-cell;
+  vertical-align: middle;
+  color: white;
+  font-size: 20pt;
+
+}
+#container-slides {
+  position: relative;
+  height: 90vh;
+  padding: 0px;
+  margin: 0px;
+}
+
+.slide {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 1:;
+   -webkit-transition: opacity 1s;
+   -moz-transition: opacity 1s;
+   -o-transition: opacity 1s;
+   transition: opacity 1s;
+   
+}
+
+.showing {
+    opacity: 1;
+    z-index: 2;
+}
+
+.slide {
+    font-size: 3em;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+.slide:nth-of-type(1) {
+    background: url('nescafe2.jpeg') no-repeat center fixed;     
+    background-size: 30%;
+}
+.slide:nth-of-type(2) {
+    background: url('nescafe3.jpg') no-repeat center fixed;     
+    background-size: 30%;
+}
+.slide:nth-of-type(3) {
+    background: url('nescafe4.jpg') no-repeat center fixed;     
+    background-size: 30%;
+}
+.slide:nth-of-type(4) {
+    background: url('nescafe5.jpg') no-repeat center fixed;     
+    background-size: 30%;
+}
+.slide:nth-of-type(5) {
+    background: url('nescafe6.jpg') no-repeat center fixed;     
+    background-size: 30%;
+}
