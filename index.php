@@ -1,18 +1,14 @@
 <!DOCTYPE html>
-<link rel="icon" href="logo.jpg" type="image/icon type">
+<link rel="icon" href="img/logo.jpg" type="image/icon type">
 <html style="background-color: rgb(216, 214, 214);">
   
 <head>
     <link rel="stylesheet" href="style.css">
     
 <title>About us</title>
-<div class="navbar">
-    <a class="navbarleft" href="#">Home</a>  
-    <a class="navbarleft" href="product.html">Products</a>
-    <a class="navbarleft" href="about.html">About</a>
-    <a class="navbarright" href="register.html">Register</a>
-    <a class="navbarright" href="login.html">Login</a>
-    </div>
+<?php
+
+include './components/navbar.php' ?>
 </head>
 <body >
  

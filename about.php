@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <link rel="icon" href="logo.jpg" type="image/icon type">
 <html>
@@ -63,20 +64,16 @@ p{
     </style>
     <link rel="stylesheet" href="style.css">
 <title>About us</title>
-<div class="navbar">
-    <a class="navbarleft" href="index.html">Home</a>
-    <a class="navbarleft" href="product.html">Products</a>
-    <a class="navbarleft" href="#">About</a>
-    <a class="navbarright" href="register.html">Register</a>
-    <a class="navbarright" href="login.html">Login</a>
-    </div>
+<?php
+
+include './components/navbar.php' ?>
 </head>
 <body>
 
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="avatar3.png" alt="Jane" style="width:50%">
+      <img src="img/avatar3.png" alt="Jane" style="width:50%">
       <div class="container">
         <h2>Thesar Sahatqija</h2>
         <p class="title">CEO & Founder</p>
@@ -88,7 +85,7 @@ p{
 
   <div class="column">
     <div class="card">
-      <img class="img1" src="avatar4.png" alt="Mike" style="width:50%">
+      <img class="img1" src="img/avatar4.png" alt="Mike" style="width:50%">
       <div class="container">
         <h2>Rinor Shala</h2>
         <p class="title">CEO & Founder</p>

@@ -1,20 +1,14 @@
 
 <!DOCTYPE html>
-<link rel="icon" href="logo.jpg" type="image/icon type">
+<link rel="icon" href="img/logo.jpg" type="image/icon type">
 <html >
 <head>
     <link rel="stylesheet" href="logreg.css">
     <title>Register</title>
-    <div class="navbar">
-        <a class="navbarleft" href="index.html">Home</a>
-        <a class="navbarleft" href="product.html">Products</a>
-        <a class="navbarleft" href="about.html">About</a>
-        <a class="navbarright" href="#">Register</a>
-        <a class="navbarright" href="login.html">Login</a>
+    <?php
     
-        
-        
-      </div>
+include './components/navbar.php' ?>
+
 </head>
 <body>    
 <br>
