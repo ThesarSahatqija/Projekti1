@@ -3,7 +3,7 @@
 <html>
     
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 <title>Product</title>
 <?php
 

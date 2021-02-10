@@ -3,7 +3,7 @@
 <link rel="icon" href="img/logo.jpg" type="image/icon type">
 <html >
 <head>
-    <link rel="stylesheet" href="logreg.css">
+    <link rel="stylesheet" href="style/logreg.css">
     <title>Register</title>
     <?php
     

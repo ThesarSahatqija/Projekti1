@@ -62,7 +62,7 @@ p{
 
 
     </style>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
 <title>About us</title>
 <?php
 

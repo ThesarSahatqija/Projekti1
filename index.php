@@ -3,7 +3,7 @@
 <html style="background-color: rgb(216, 214, 214);">
   
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     
 <title>About us</title>
 <?php
