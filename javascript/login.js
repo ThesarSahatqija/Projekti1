@@ -1,39 +1,17 @@
 
-    var inputs=document.getElementsByClassName("input");
 
-    function validate(number){
-      
-        var1 = inputs[0];
-        var11=inputs[0].value.length;
-        var2 = inputs[1];
-        var22=inputs[1].value.length;
-        if(var1.value==""){
-          document.getElementById("error0").innerHTML="Username is missing!";
-       
-        }
-        else if(var11<8){
-            document.getElementById("error0").innerHTML="Username is short!";
-    
-        }
-        else if(var2.value==""){
-            document.getElementById("error0").innerHTML="Password is missing!";
-                
-        }
-        else if(var22<8){
-            document.getElementById("error0").innerHTML="Password is short!";
-                
-        }
-        else{
-            document.getElementById("error0").innerHTML="";            
-            const alertHTML = '<div class="alert">Succesfully Logged in</div>';
-    document.body.insertAdjacentHTML('beforeend', alertHTML);
-    setTimeout(() => document.querySelector('.alert').classList.add('hide'), 1000);
-    setTimeout(function () {
-       window.location.href = "index.php";
-    }, 1000);
-        }
-    }
+const usernameReg = /^[a-zA-Z0-9]{3,}$/; // new RegExp('')
+const passwordReg = /^[A-Z]+$/; // new RegExp('')
+
+function validate() {
+     let inputs = document.querySelectorAll("input");
+     usrname = inputs[0].value;
+     password = inputs[1].value;
+     if (usernameReg.test(usrname) && password != "") {
+         return true;
+     }
+     return false;
+}
 
 
-    
- 
+

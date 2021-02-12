@@ -11,18 +11,18 @@ include './components/navbar.php' ?>
 <body>    
     <h2>Login Page</h2><br>    
     <div class="login">    
-    <form id="login" method="get">    
+    <form id="mainForm" action="verifylogin.php" method="post" onsubmit="return validate()">
         <label><b>User Name</b>    
         </label>    
-        <input type="text" class="input" name="Uname" id="Uname" placeholder="Username">    
+        <input type="text" class="input" name="username" id="Uname" placeholder="Username">    
         <br><br>    
         <label><b>Password     
         </b>    
         </label>    
-        <input type="Password" class="input" name="Pass" id="Pass" placeholder="Password">    
+        <input type="Password" class="input" name="password" id="Pass" placeholder="Password">    
         <br><br>    
-        <input type="button" name="log" class="input submit"  id="log" value="Log In Here" onclick="validate(1)">  
-        <div id="error0"></div>     
+        <input id="submit" type="submit" name='login-btn' class="input submit" value="Login"/>
+ 
   
   
     </form>     
