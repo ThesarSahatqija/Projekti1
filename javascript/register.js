@@ -1,5 +1,5 @@
 
-    var inputs=document.getElementsByClassName("input");
+    /*var inputs=document.getElementsByClassName("input");
     function validate(number){
 
         varname =   inputs[0];

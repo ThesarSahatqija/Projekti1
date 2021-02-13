@@ -1,4 +1,6 @@
+<?php
 
+include './components/session.php' ?>
 <!DOCTYPE html>
 <link rel="icon" href="logo.jpg" type="image/icon type">
 <html>
